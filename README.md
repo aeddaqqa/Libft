@@ -1,9 +1,9 @@
 # Libft
 faire coder en C une bibliothèque de fonctions usuelles. [1337 school (42 network) project](./libft.fr.pdf)
 ## Sections
-- [Description](##_**Description**_)
-- [Les fonctions déclarées](##_**Les-fonctions-déclarées**_)
-- [Exemple de l'utilisation](##_**exemple-de-l'utilisation**_)
+- [Description](##Description)
+- [Les fonctions déclarées](##Les-fonctions-déclarées)
+- [Exemple de l'utilisation](##exemple-de-l'utilisation)
 > ## _**Description**_
 La bibliothèque standard du C est une collection maintenant normalisée d'en-têtes et de routines utilisées pour implémenter des opérations courantes
 
@@ -70,10 +70,6 @@ La bibliothèque standard du C est une collection maintenant normalisée d'en-t�
 |ft_lstmap|Parcourt la liste lst en appliquant à chaque maillon la fonction f et cree une nouvelle liste “fraiche” avec malloc(3) resultant des applications successives. Si une allocation echoue, la fonction renvoie NULL.|
 
 > ## _**Exemple de l'utilisation**_
-
-Create unordered lists using '-', '*', '+, 
- 
-    Example with each 
 
 - cloner le repository suivant dans un répertoire local
 + make -C libft
