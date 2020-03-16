@@ -1,9 +1,9 @@
 # Libft
 faire coder en C une bibliothèque de fonctions usuelles. [1337 school (42 network) project](./libft.fr.pdf)
 ## Sections
-- [Description](##Description)
-- [Les fonctions déclarées](##Les-fonctions-déclarées)
-- [Exemple de l'utilisation](##exemple-de-l'utilisation)
+- [Description](#Description)
+- [Les fonctions déclarées](#Les-fonctions-déclarées)
+- [Exemple de l'utilisation](#exemple-de-l'utilisation)
 > ## _**Description**_
 La bibliothèque standard du C est une collection maintenant normalisée d'en-têtes et de routines utilisées pour implémenter des opérations courantes
 
@@ -71,9 +71,10 @@ La bibliothèque standard du C est une collection maintenant normalisée d'en-t�
 
 > ## _**Exemple de l'utilisation**_
 
-- cloner le repository suivant dans un répertoire local
-+ make -C libft
-* gcc main.c get_next_line.c libft/libft.a -o exemple
-+ ./exemple "Makfile"
+- cloner le repository suivant https://github.com/aeddaqqa/get_next_line.git dans un répertoire local
+-  cd get_next_line
+- make -C ./Libft
+- gcc main.c get_next_line.c Libft/libft.a -o get_next_line
+- ./get_next_line Libft/Makefile
 
 
